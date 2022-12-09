@@ -7,7 +7,7 @@ function get_random_photo() {
 	#Returns random file from target directory
 	files = ( "$targetDir"/* )
 	echo "${files[RANDOM % ${#files[@]}]}"
-
+	
 }
 
 function setBackground() {
